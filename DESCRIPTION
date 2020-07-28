@@ -1,0 +1,20 @@
+Package: MSclassifier
+Title: Median-Supplement model based Classification tool for automated knowledge discovery
+Version: 1.0.0
+Maintainer:  Emmanuel S. Adabor <emmanuelsadabor@gimpa.edu.gh>
+Description: Median-Supplement model based Classification implements a median-supplement approach to machine learning, supporting complete compliance efforts by never missing sensitive sub-datasets or allowing some sub-datasets to escape the classification process when balancing overall dataset as required in traditional classification models, for an automated and effective binary classification for optimal decision making.
+Date: June 23, 2020
+Depends: R (>= 3.3.3)
+Imports: 
+	e1071,
+	randomForest (>= 4.6-12)
+ByteCompile: true
+License: GNU General Public Licence (GPL >= 3), Refer to < http : //www.gnu.org/licenses/ >
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.0.1
+URL: https://nweb.gimpa.edu.gh/schools/school-of-technology/software/MSclassifier/ 
+BugReports: Email to Emmanuel S. Adabor <emmanuelsadabor@gimpa.edu.gh>
+NeedsCompilation: yes
+Authors: person("Adabor ES","Mazandu G","Acquaah-Mensah GK", email = "emmanuelsadabor@gimpa.edu.gh",role=c("author", "Author", Author))
+
